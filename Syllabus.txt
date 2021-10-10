@@ -1,0 +1,29 @@
+Asymptotic Notations: Complexity Analysis of Algorithms, Worst Case, Best Case and
+Average Case. 
+
+Sorting Algorithms: Divide and Conquer Approach, Merge Sort and Quick Sort
+Algorithm, Complexity Analysis, Worst and Average Case Analysis, Heap Construction
+Algorithm, Heap Sort, Application of Heap: Priority Queue, Decision Tree Model and
+(Worst Case) Lower Bound on Sorting, Sorting in Linear Time - Radix Sort, Bucket Sort,
+Counting Sort, etc.
+
+Graph Algorithms: Representation of Graphs, Breadth First Search, Depth First Search,
+Minimum Spanning Tree, Kruskal and Prims Algorithm.
+Shortest Path: Dijkstra’s Algorithm, Bellman-Ford Algorithm. Floyd Warshall Algorithm.
+Searching Algorithms: Binary Search Trees, Balanced Binary Search Trees, AVL Trees
+and Red-Black Trees, B-Trees, Skip Lists, Hashing. Priority Queues, Heaps, Interval
+Trees.
+
+Dynamic Programming: Longest Common Subsequence (LCS), Matrix Chain
+Multiplication (MCM), Knapsack Problem, Multistage Graphs. 
+
+Greedy Algorithm: Greedy Algorithm, Activity Selection Problem, Huffman Codes and its
+application, Knapsack problem, Tree Vertex Splitting.
+Recurrences & Backtracking: Recurrences, NP-Hard and NP-Complete Problems,
+Backtracking, n-Queen Problem, Branch and Bounds.
+
+Reducibility between Problems and NP-completeness: Lower Bound Theory,
+Discussion of Different NP-Complete Problems like Satisfiability, Clique, Vertex Cover,
+Independent Set, Hamiltonian Cycle, TSP, Knapsack, Set Cover, Bin Packing, etc.
+Computational Geometry, Line Segment Properties, Convex Hull, Graham Scan Algorithm
+of Convex Hull. 
