@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int call(int index, int sum, vector<int> coins, int toMake) {
+    if (index >= coins.size()) {
+        if (sum == toMake) return 1;
+        return 0;
+    }
+
+    int ret1 = 0;
+    int ret2 = 0;
+
+    // Taking the coin, also look for taking the  same coin as there is infinite number of each coin
+    if (sum+coins[index] <= toMake) ret1 = call(index, sum+coins[index], coins, toMake);
+    // Not taking the coin
+    ret2 = call(index+1, sum, coins, toMake);
+
+    return ret1+ret2;
+}
+
+int main() {
+    vector<int> coins = {1, 3, 5};
+    int toMake = 8;
+
+    cout << call(0, 0, coins, toMake) << endl;
+}
